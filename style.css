@@ -7,13 +7,20 @@
 
 body {
     color: white;
-    background-color: darkslategray;
+    background-color: #7e7ee1;
     font-family: 'Kanit', sans-serif;
 }
 
 .container {
     display: flex;
     height: 100vh;
+}
+
+.new-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .sub-container {
@@ -24,9 +31,26 @@ body {
     flex-direction: column;
 }
 
-img {
+.friend-lists {
+    margin-top: 1rem;
+}
+
+.friend {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.friend:last-child {
+    border: none;
+}
+
+.img {
     border-radius: 100%;
     width: 200px;
+}
+
+.devimg {
+    border-radius: 20%;
 }
 
 a {
