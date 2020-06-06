@@ -71,14 +71,17 @@ hr {
 }
 
 .main {
-    width: 20%;
-    display: block;
+    width: 350px;
     margin: 50px auto;
 }
 
 .form {
     background-color: rgba(255, 255, 255, 1);
     border-radius: 15px;
+}
+
+.main-form {
+
 }
 
 .form-flex {
